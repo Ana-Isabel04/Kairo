@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kairo
+namespace Kairo.Fomularios
 {
-    public partial class Form1 : Form
+    public partial class frmCrearCuenta : Form
     {
-        public Form1()
+        public frmCrearCuenta()
         {
             InitializeComponent();
         }
