@@ -117,53 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icono_ubicacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icono_ubicacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoMontañaGris" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoMontañaGris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="checkIcono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\checkIcono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoPersona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoPersona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BinocularesGris" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BinocularesGris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconoBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoBuscar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoLista" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoLista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="La-Piedra-del-Penon-de-Guatape-al-fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\La-Piedra-del-Penon-de-Guatape-al-fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CrearCOnteIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CrearCOnteIco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconoReserva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoReserva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2026-04-21 203646" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2026-04-21 203646.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UbicacionVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UbicacionVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoCorreo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoCorreo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Notificacion icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Notificacion icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconoCasita" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoCasita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="btnCultura.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

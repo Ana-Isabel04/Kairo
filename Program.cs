@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kairo.Fomularios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Kairo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCrearCuenta());
+            Application.Run(new frmGuia());
         }
     }
 }

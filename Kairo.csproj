@@ -47,30 +47,175 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\cConexion.cs" />
-    <Compile Include="Fomularios\Form1.cs">
+    <Compile Include="Fomularios\frmBuscarLugaresCercanos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fomularios\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Fomularios\frmBuscarLugaresCercanos.Designer.cs">
+      <DependentUpon>frmBuscarLugaresCercanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmBuscarPorHora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmBuscarPorHora.Designer.cs">
+      <DependentUpon>frmBuscarPorHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmEncontrarRecomendacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmEncontrarRecomendacion.Designer.cs">
+      <DependentUpon>frmEncontrarRecomendacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmGuia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmGuia.Designer.cs">
+      <DependentUpon>frmGuia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmIniciarSesion.Designer.cs">
+      <DependentUpon>frmIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmLugar_Restaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmLugar_Restaurante.Designer.cs">
+      <DependentUpon>frmLugar_Restaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmMirarFotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmMirarFotos.Designer.cs">
+      <DependentUpon>frmMirarFotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmNotificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmNotificacion.Designer.cs">
+      <DependentUpon>frmNotificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmNotificacionExterna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmNotificacionExterna.Designer.cs">
+      <DependentUpon>frmNotificacionExterna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmRecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmRecuperarContraseña.Designer.cs">
+      <DependentUpon>frmRecuperarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaGuia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaGuia.Designer.cs">
+      <DependentUpon>frmReservaGuia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaHotel.Designer.cs">
+      <DependentUpon>frmReservaHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaLugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmReservaLugar.Designer.cs">
+      <DependentUpon>frmReservaLugar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmHotel.Designer.cs">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmReservasMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmReservasMenu.Designer.cs">
+      <DependentUpon>frmReservasMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fomularios\frmUbicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fomularios\frmUbicacion.Designer.cs">
+      <DependentUpon>frmUbicacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Fomularios\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Fomularios\frmBuscarLugaresCercanos.resx">
+      <DependentUpon>frmBuscarLugaresCercanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmBuscarPorHora.resx">
+      <DependentUpon>frmBuscarPorHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmEncontrarRecomendacion.resx">
+      <DependentUpon>frmEncontrarRecomendacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmGuia.resx">
+      <DependentUpon>frmGuia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmIniciarSesion.resx">
+      <DependentUpon>frmIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmLugar_Restaurante.resx">
+      <DependentUpon>frmLugar_Restaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmMirarFotos.resx">
+      <DependentUpon>frmMirarFotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmNotificacion.resx">
+      <DependentUpon>frmNotificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmNotificacionExterna.resx">
+      <DependentUpon>frmNotificacionExterna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmRecuperarContraseña.resx">
+      <DependentUpon>frmRecuperarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmReservaGuia.resx">
+      <DependentUpon>frmReservaGuia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmReservaHotel.resx">
+      <DependentUpon>frmReservaHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmReservaLugar.resx">
+      <DependentUpon>frmReservaLugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmHotel.resx">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmReservasMenu.resx">
+      <DependentUpon>frmReservasMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fomularios\frmUbicacion.resx">
+      <DependentUpon>frmUbicacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -82,6 +227,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database\script.sql" />
+    <None Include="Resources\IconoCasita.png" />
+    <None Include="Resources\IconoReserva.png" />
+    <None Include="Resources\CrearCOnteIco.png" />
+    <None Include="Resources\logoLista.png" />
+    <None Include="Resources\IconoBuscar1.png" />
+    <None Include="Resources\IconoBuscar.png" />
+    <None Include="Resources\Captura de pantalla 2026-04-21 203646.png" />
+    <None Include="Resources\icono_reservas.jpeg" />
+    <None Include="Resources\BuscarIcono.jpeg" />
+    <None Include="Resources\Crear_lista.jpeg" />
+    <None Include="Resources\iconoListas2.jpeg" />
+    <None Include="Resources\UbicacionVerde.png" />
+    <None Include="Resources\Notificacion icono.png" />
+    <None Include="Resources\checkIcono.png" />
+    <None Include="Resources\icono_ubicacion.png" />
+    <None Include="Resources\BinocularesGris.png" />
+    <None Include="Resources\logoMontañaGris.png" />
+    <None Include="Resources\LogoGuia.png" />
+    <None Include="Resources\logo guia.png" />
+    <None Include="Resources\logoMontaña.png" />
+    <None Include="Resources\logoCorreo.png" />
+    <None Include="Resources\logoPersona.png" />
+    <None Include="Resources\recuperarContraseña.png" />
+    <None Include="Resources\La-Piedra-del-Penon-de-Guatape-al-fondo.jpg" />
+    <None Include="Resources\logo.jpeg" />
+    <None Include="Resources\iconoListas1.jpeg" />
+    <None Include="Resources\iconoListas.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

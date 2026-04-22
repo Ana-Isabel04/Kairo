@@ -11,35 +11,34 @@ using System.Windows.Forms;
 
 namespace Kairo.Fomularios
 {
-    public partial class frmIniciarSesion : Form
+    public partial class frmReservaGuia : Form
     {
         Color Pine_tree = ColorTranslator.FromHtml("#202818");
         Color kombu_Green = ColorTranslator.FromHtml("#33432b");
         Color dingley = ColorTranslator.FromHtml("#6A784D");
         Color Brandy = ColorTranslator.FromHtml("#DEC59E");
         Color pale_copper = ColorTranslator.FromHtml("#C4866D");
-        public frmIniciarSesion()
+        public frmReservaGuia()
         {
             InitializeComponent();
+
         }
 
-        private void frmIniciarSesion_Load(object sender, EventArgs e)
+        private void frmReservaGuia_Load(object sender, EventArgs e)
         {
-            pnlsepa.BackColor = Pine_tree;
-            HacerCircular(ptbLogo);
-            btnIngresar.ForeColor = Color.White;
-            btnIngresar.BackColor = kombu_Green;
-        }
-        private void HacerCircular(PictureBox pic)
-        {
-            GraphicsPath path = new GraphicsPath();
-            path.AddEllipse(0, 0, pic.Width, pic.Height);
-            pic.Region = new Region(path);
+            btnReservar.BackColor = kombu_Green;
+            btnReservar.ForeColor= AclararColor("#dec59e", 0.85);
         }
 
-        private void lklCrearCuenta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private Color AclararColor(string hex, double factor)
         {
+            Color c = ColorTranslator.FromHtml(hex);
 
+            int r = (int)(c.R + (255 - c.R) * factor);
+            int g = (int)(c.G + (255 - c.G) * factor);
+            int b = (int)(c.B + (255 - c.B) * factor);
+
+            return Color.FromArgb(r, g, b);
         }
     }
 }
